@@ -105,7 +105,7 @@
 	}
 
 	body {
-		background: #ffcccc;
+		background: #ff4665;
 	}
 
 	body, input, select, textarea {
@@ -2056,7 +2056,7 @@
 		header.major p {
 			display: inline-block;
 			border-top: solid 2px #e5e5e5;
-			color: #777;
+			color: rgb(255, 0, 51);
 			margin: 1.5em 0 0 0;
 			padding: 1.5em 0 0 0;
 			font-style: normal;
@@ -2069,7 +2069,7 @@
 	}
 
 	label {
-		color: #646464;
+		color: #ffa3a3;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 300;
@@ -2109,8 +2109,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #e89980;
-			box-shadow: 0 0 0 2px #e89980;
+			border-color: #000000;
+			box-shadow: 0 0 0 2px #040100;
 		}
 
 	select {
@@ -2124,7 +2124,7 @@
 	}
 
 		select option {
-			color: rgb(55, 55, 55);
+			color: rgb(255, 0, 247);
 			background-color: #c800ff;
 		}
 
@@ -2250,9 +2250,9 @@
 /* Box */
 
 	.box {
-		background: #fff;
+		background: rgb(255, 207, 215);
 		border-radius: 6px;
-		box-shadow: 0 2px 0 0 #e5e5e5;
+		box-shadow: 0 2px 0 0 #000000;
 		margin: 0 0 2em 0;
 		padding: 3em;
 	}
@@ -2270,7 +2270,7 @@
 		}
 
 		.box.features .features-row {
-			border-top: solid 2px #e5e5e5;
+			border-top: solid 2px #ffc9c9;
 			position: relative;
 		}
 
@@ -2295,7 +2295,7 @@
 				}
 
 					.box.features .features-row section:nth-child(2n):before {
-						background: #e5e5e5;
+						background: #ffc3c3;
 						content: '';
 						display: block;
 						height: 100%;
@@ -2401,7 +2401,7 @@
 		}
 
 		.icon.major {
-			background: #666;
+			background: rgb(255, 0, 89);
 			border-radius: 100%;
 			color: #ffffff;
 			cursor: default;
@@ -2691,7 +2691,7 @@
 		}
 
 		table th {
-			color: #646464;
+			color: #fa0019;
 			font-size: 0.9em;
 			font-weight: 300;
 			padding: 0 0.75em 0.75em 0.75em;
