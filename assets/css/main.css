@@ -62,7 +62,7 @@
 	}
 
 	mark {
-		background-color: transparent;
+		background-color: crimson;
 		color: inherit;
 	}
 
@@ -105,12 +105,12 @@
 	}
 
 	body {
-		background: #f5f5f5;
+		background: #ffcccc;
 	}
 
 	body, input, select, textarea {
-		color: #777;
-		font-family: "Source Sans Pro", sans-serif;
+		color: rgb(26, 26, 26);
+		font-family: "Gill Sans", sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;
@@ -209,7 +209,7 @@
 		}
 
 	blockquote {
-		border-left: solid 4px #e5e5e5;
+		border-left: solid 4px #ffd000;
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 2em;
@@ -217,7 +217,7 @@
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		background: #f8f8f8;
+		background: #aafffe;
 		border-radius: 6px;
 		border: solid 1px #e5e5e5;
 		font-family: monospace;
@@ -229,9 +229,9 @@
 	}
 
 	code {
-		background: #f8f8f8;
+		background: #ff7676;
 		border-radius: 6px;
-		border: solid 1px #e5e5e5;
+		border: solid 1px #ffcccc;
 		font-family: monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -2085,9 +2085,9 @@
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background-color: #f8f8f8;
+		background-color: #004cff;
 		border-radius: 6px;
-		border: solid 1px #e5e5e5;
+		border: solid 1px #9dbcff;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -2124,8 +2124,8 @@
 	}
 
 		select option {
-			color: #777;
-			background-color: #f5f5f5;
+			color: rgb(55, 55, 55);
+			background-color: #c800ff;
 		}
 
 		select:focus::-ms-value {
@@ -2190,7 +2190,7 @@
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
-				background: #f8f8f8;
+				background: #ffccc0;
 				border-radius: 6px;
 				border: solid 1px #e5e5e5;
 				content: '';
@@ -2207,9 +2207,9 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #666;
-			border-color: #666;
-			color: #ffffff;
+			background: rgb(36, 0, 237);
+			border-color: rgb(48, 48, 48);
+			color: #ffe3e3;
 			content: '\f00c';
 		}
 
